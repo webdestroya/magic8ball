@@ -8,17 +8,17 @@ It serves absolutely no other purpose. Enjoy.
 == API Access
 
 If you want, you may access this site via JSON API calls.
-
-     http://8ball.mitchdempsey.com/shake.json
+  
+  http://8ball.mitchdempsey.com/shake.json
 
 Will respond with: 
 
-    HTTP/1.1 200 OK 
-	Content-Type: application/json; charset=utf-8
-	...
-	Content-Length: 32
-
-	{"answer":"Outlook not so good"}
+  HTTP/1.1 200 OK 
+  Content-Type: application/json; charset=utf-8
+  ...
+  Content-Length: 32
+  
+  {"answer":"Outlook not so good"}
 	
 
 == License
