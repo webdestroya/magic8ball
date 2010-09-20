@@ -4,6 +4,10 @@ This is a super simple site I made that just shows the user various 8-ball respo
 
 It serves absolutely no other purpose. Enjoy.
 
+== See it in action
+
+You can see it in action at http://8ball.mitchdempsey.com/[http://8ball.mitchdempsey.com/]
+
 
 == API Access
 
