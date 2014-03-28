@@ -8,3 +8,5 @@ gem 'sinatra-jsonp'
 gem 'multi_json'
 
 gem 'thin'
+
+gem 'foreman'

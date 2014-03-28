@@ -38,6 +38,10 @@ Will respond with:
     
     yourCallbackName({"answer":"Outlook not so good"})
 
+## Google Analytics
+
+If you specify the `GA_ACCOUNT` environment variable with your Google Analytics account ID, then stats tracking will be loaded.
+
 ## License
 
 There is no license at all for this. Do what you want, as you please.

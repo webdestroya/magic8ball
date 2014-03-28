@@ -9,10 +9,12 @@
   #container{position: absolute;top: 50%;margin-top: -24px;left: 0;width: 100%;}
   #content {width: 624px;margin-left: auto;margin-right: auto;height: 48px;font-size:24px;text-align:center;font-family:Helvetica,Verdana,Arial,sans-serif;color:#fff;}
   </style>
+  
+  <% if ENV.has_key?('GA_ACCOUNT') %>
   <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-18627936-2']);
+  _gaq.push(['_setAccount', "<%= ENV['GA_ACCOUNT']%>");
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -21,7 +23,8 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
+  </script>
+  <% end %>
 </head>
 <body><div id="container"><div id="content"><h1><%= @answer %></h1></div></div></body>
 </html>
